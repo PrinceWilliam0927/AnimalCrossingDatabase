@@ -1,0 +1,37 @@
+:root {
+    --primary: #4B5FC2;
+    --secondary: #665EA5;
+    --text: #7D7B87;
+}
+
+h1 {
+    color: var(--primary);
+    text-indent: 30px;
+}
+
+h3{
+    color: var(--text);
+    text-indent: 50px;
+}
+a {
+    color: var(--primary);
+}
+
+body {
+    color: var(--text);
+}
+
+h2{
+    color: var(--text);
+    text-align: center;
+
+}
+
+h5{
+    color: var(--text);
+    text-align: center;
+}
+
+.table{
+    text-align: center;
+}
