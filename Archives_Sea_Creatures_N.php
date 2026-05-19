@@ -1,3 +1,4 @@
+<?php ob_start(); ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,7 +7,7 @@
   <meta name="author" content="Ben Phillips">
   <meta name="description" content="Screen Displaying Artwork table from Database">  
   
-  <title>Fish N</title>
+  <title>Sea Creatures N</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"> 
   <link rel="stylesheet" type="text/css" href="./styles/Base.css" />
 </head>
@@ -26,7 +27,7 @@
 		$( "#Nameinput" ).change(function() {
 		
 			$.ajax({
-				url: 'search_Fish_N.php', 
+				url: 'search_Sea_Creatures_N.php', 
 				data: {searchName: $( "#Nameinput" ).val()},
 				success: function(data){
 					$('#Nameresult').html(data);	
@@ -38,22 +39,22 @@
 	});
 	</script>
 
-<h3>Search Fish by Name:</h3>	
-<input class="xlarge" style="margin-left:50px;" id="Nameinput" type="search" placeholder="Enter Fish Name"/>
+<h3>Search Sea Creature by Name:</h3>	
+<input class="xlarge" style="margin-left:50px; width: 200px;" id="Nameinput" type="search" placeholder="Enter Sea Creature Name"/>
 
 <div id="Nameresult">
 <form method='post' action='download.php'>
 <input type='submit' value='Add to Collection' name='Collect'>
 <input type='submit' value='Download Table' name='Download'>
 
-<table id="eat-table" class="table table-striped table-hover">
+<table class="table table-striped table-hover">
     <thead class="thead-dark">
         <tr>
         <th>Name</th>
         <th>Image</th>
         <th>Price</th>
-        <th>Location</th>
-        <th>Shadow Size</th>
+        <th>Shadow</th>
+        <th>Speed</th>
         <th>Jan</th>
         <th>Feb</th>
         <th>March</th>
@@ -73,7 +74,6 @@
         <?php query_database();?>
     </tbody>
 </table>
-
 </div>
 
 <?php 
@@ -81,7 +81,7 @@
   function query_database(){
 
     global $db;
-    $query = "SELECT * FROM Fish_N";
+    $query = "SELECT * FROM Sea_Creatures_N";
     $statement = $db->prepare($query); //Compile string query into executable version
     $statement->execute();
     $output = $statement->fetchAll();  //Returns an array of all row from execution
@@ -93,10 +93,10 @@
     //Puts each entry into the table format for display
     ?><tr>
         <td><?php echo $row['Name']; ?></td>
-        <td><img src="<?php echo $row['Image']; ?>" height="50" width="50"></td>
+        <td><img src="<?php echo $row['Icon Image']; ?>" height="50" width="50"></td>
         <td><?php echo $row['Price']; ?> Bells</td>
-        <td><?php echo $row['Location']; ?></td>
-        <td><?php echo $row['Shadow_Size']; ?></td>
+        <td><?php echo $row['Shadow']; ?></td>
+        <td><?php echo $row['Movement Speed']; ?></td>
         <td><?php echo $row['NH_Jan']; ?></td>
         <td><?php echo $row['NH_Feb']; ?></td>
         <td><?php echo $row['NH_Mar']; ?></td>
@@ -105,15 +105,15 @@
         <td><?php echo $row['NH_Jun']; ?></td>
         <td><?php echo $row['NH_Jul']; ?></td>
         <td><?php echo $row['NH_Aug']; ?></td>
-        <td><?php echo $row['NH Sep']; ?></td>
-        <td><?php echo $row['NH Oct']; ?></td>
-        <td><?php echo $row['NH Nov']; ?></td>
-        <td><?php echo $row['NH Dec']; ?></td>
+        <td><?php echo $row['NH_Sep']; ?></td>
+        <td><?php echo $row['NH_Oct']; ?></td>
+        <td><?php echo $row['NH_Nov']; ?></td>
+        <td><?php echo $row['NH_Dec']; ?></td>
         <td><input type="checkbox" name="collected[]" value="<?php echo $row['Name']; ?>"></td>
       </tr>
       <?php
       //Create array for download feature
-      $row_array[] = array($row['Name'], $row['Image'], $row['Price'], $row['Location'], $row['Shadow_Size'], $row['NH_Jan'], $row['NH_Feb'], $row['NH_Mar'], $row['NH_Apr'], $row['NH_May'], $row['NH_Jun'], $row['NH_Jul'], $row['NH_Aug'], $row['NH Sep'], $row['NH Oct'], $row['NH Nov'], $row['NH Dec']);
+      $row_array[] = array($row['Name'], $row['Icon Image'], $row['Price'], $row['Shadow'], $row['Movement Speed'], $row['NH_Jan'], $row['NH_Feb'], $row['NH_Mar'], $row['NH_Apr'], $row['NH_May'], $row['NH_Jun'], $row['NH_Jul'], $row['NH_Aug'], $row['NH_Sep'], $row['NH_Oct'], $row['NH_Nov'], $row['NH_Dec']);
     }
     //Serialize array for download feature
     $serialize_row_array =  serialize($row_array);
@@ -121,11 +121,11 @@
     <!-- Pass serialized array via textarea -->
     <textarea name='download_data' style='display: none;'><?php echo $serialize_row_array; ?></textarea>
     <!-- Pass desired name of file -->
-    <input style='display: none;' name='file_name' value='fish_N.csv' />
+    <input style='display: none;' name='file_name' value='sea_creatures_N.csv' />
     <!-- Pass type of item for adding to User_Collection database -->
-    <input style='display: none;' name='item_type' value='Fish_N' />
+    <input style='display: none;' name='item_type' value='Sea_Creatures_N' />
     <!-- Pass return address after adding to collection -->
-    <input style='display: none;' name='return_addr' value='Archives_Fish_N.php' />
+    <input style='display: none;' name='return_addr' value='Archives_Sea_Creatures_N.php' />
     <?php
     $statement->closeCursor();
   }

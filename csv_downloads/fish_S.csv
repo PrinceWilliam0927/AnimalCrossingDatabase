@@ -1,0 +1,81 @@
+Name,Icon,Price,Location,Shadow_Size,SH_Jan,SH_Feb,SH_Mar,SH_Apr,SH_May,SH_Jun,SH_Jul,SH_Aug,SH_Sep,SH_Oct,SH_Nov,SH_Dec
+anchovy,https://acnhcdn.com/latest/MenuIcon/Fish81.png,200,Sea,Small,4 AM - 9 PM,4 AM - 9 PM,4 AM - 9 PM,4 AM - 9 PM,4 AM - 9 PM,4 AM - 9 PM,4 AM - 9 PM,4 AM - 9 PM,4 AM - 9 PM,4 AM - 9 PM,4 AM - 9 PM,4 AM - 9 PM
+angelfish,https://acnhcdn.com/latest/MenuIcon/Fish30.png,3000,River,Small,4 PM - 9 AM,4 PM - 9 AM,4 PM - 9 AM,4 PM - 9 AM,NA,NA,NA,NA,NA,NA,4 PM - 9 AM,4 PM - 9 AM
+arapaima,https://acnhcdn.com/latest/MenuIcon/Fish36.png,10000,River,XX-Large,4 PM - 9 AM,4 PM - 9 AM,4 PM - 9 AM,NA,NA,NA,NA,NA,NA,NA,NA,4 PM - 9 AM
+arowana,https://acnhcdn.com/latest/MenuIcon/Fish33.png,10000,River,Large,4 PM - 9 AM,4 PM - 9 AM,4 PM - 9 AM,NA,NA,NA,NA,NA,NA,NA,NA,4 PM - 9 AM
+barred knifejaw,https://acnhcdn.com/latest/MenuIcon/Fish47.png,5000,Sea,Medium,All day,All day,All day,All day,All day,NA,NA,NA,All day,All day,All day,All day
+barreleye,https://acnhcdn.com/latest/MenuIcon/Fish84.png,15000,Sea,Small,9 PM - 4 AM,9 PM - 4 AM,9 PM - 4 AM,9 PM - 4 AM,9 PM - 4 AM,9 PM - 4 AM,9 PM - 4 AM,9 PM - 4 AM,9 PM - 4 AM,9 PM - 4 AM,9 PM - 4 AM,9 PM - 4 AM
+betta,https://acnhcdn.com/latest/MenuIcon/Fish77.png,2500,River,Small,9 AM - 4 PM,9 AM - 4 PM,9 AM - 4 PM,9 AM - 4 PM,NA,NA,NA,NA,NA,NA,9 AM - 4 PM,9 AM - 4 PM
+bitterling,https://acnhcdn.com/latest/MenuIcon/Fish0.png,900,River,X-Small,NA,NA,NA,NA,All day,All day,All day,All day,All day,NA,NA,NA
+black bass,https://acnhcdn.com/latest/MenuIcon/Fish19.png,400,River,Large,All day,All day,All day,All day,All day,All day,All day,All day,All day,All day,All day,All day
+blowfish,https://acnhcdn.com/latest/MenuIcon/Fish73.png,5000,Sea,Medium,NA,NA,NA,NA,9 PM - 4 AM,9 PM - 4 AM,9 PM - 4 AM,9 PM - 4 AM,NA,NA,NA,NA
+blue marlin,https://acnhcdn.com/latest/MenuIcon/Fish58.png,10000,Pier,XX-Large,All day,All day,All day,NA,All day,All day,All day,All day,All day,All day,NA,NA
+bluegill,https://acnhcdn.com/latest/MenuIcon/Fish17.png,180,River,Small,9 AM - 4 PM,9 AM - 4 PM,9 AM - 4 PM,9 AM - 4 PM,9 AM - 4 PM,9 AM - 4 PM,9 AM - 4 PM,9 AM - 4 PM,9 AM - 4 PM,9 AM - 4 PM,9 AM - 4 PM,9 AM - 4 PM
+butterfly fish,https://acnhcdn.com/latest/MenuIcon/Fish42.png,1000,Sea,Small,All day,All day,All day,NA,NA,NA,NA,NA,NA,All day,All day,All day
+carp,https://acnhcdn.com/latest/MenuIcon/Fish5.png,300,Pond,Large,All day,All day,All day,All day,All day,All day,All day,All day,All day,All day,All day,All day
+catfish,https://acnhcdn.com/latest/MenuIcon/Fish14.png,800,Pond,Large,4 PM - 9 AM,4 PM - 9 AM,4 PM - 9 AM,4 PM - 9 AM,NA,NA,NA,NA,NA,NA,4 PM - 9 AM,4 PM - 9 AM
+char,https://acnhcdn.com/latest/MenuIcon/Fish24.png,3800,River (clifftop),Medium,NA,NA,All day,All day,All day,NA,NA,NA,4 PM - 9 AM,4 PM - 9 AM,4 PM - 9 AM,4 PM - 9 AM
+cherry salmon,https://acnhcdn.com/latest/MenuIcon/Fish23.png,1000,River (clifftop),Medium,NA,NA,All day,All day,All day,NA,NA,NA,4 PM - 9 AM,4 PM - 9 AM,4 PM - 9 AM,4 PM - 9 AM
+clown fish,https://acnhcdn.com/latest/MenuIcon/Fish40.png,650,Sea,X-Small,All day,All day,All day,NA,NA,NA,NA,NA,NA,All day,All day,All day
+coelacanth,https://acnhcdn.com/latest/MenuIcon/Fish63.png,15000,Sea (rainy days),XX-Large,All day,All day,All day,All day,All day,All day,All day,All day,All day,All day,All day,All day
+crawfish,https://acnhcdn.com/latest/MenuIcon/Fish10.png,200,Pond,Small,All day,All day,All day,NA,NA,NA,NA,NA,NA,All day,All day,All day
+crucian carp,https://acnhcdn.com/latest/MenuIcon/Fish2.png,160,River,Small,All day,All day,All day,All day,All day,All day,All day,All day,All day,All day,All day,All day
+dab,https://acnhcdn.com/latest/MenuIcon/Fish50.png,300,Sea,Medium,NA,NA,NA,All day,All day,All day,All day,All day,All day,All day,NA,NA
+dace,https://acnhcdn.com/latest/MenuIcon/Fish3.png,240,River,Medium,4 PM - 9 AM,4 PM - 9 AM,4 PM - 9 AM,4 PM - 9 AM,4 PM - 9 AM,4 PM - 9 AM,4 PM - 9 AM,4 PM - 9 AM,4 PM - 9 AM,4 PM - 9 AM,4 PM - 9 AM,4 PM - 9 AM
+dorado,https://acnhcdn.com/latest/MenuIcon/Fish34.png,15000,River,X-Large,4 AM - 9 PM,4 AM - 9 PM,4 AM - 9 PM,NA,NA,NA,NA,NA,NA,NA,NA,4 AM - 9 PM
+football fish,https://acnhcdn.com/latest/MenuIcon/Fish56.png,2500,Sea,Large,NA,NA,NA,NA,4 PM - 9 AM,4 PM - 9 AM,4 PM - 9 AM,4 PM - 9 AM,4 PM - 9 AM,NA,NA,NA
+freshwater goby,https://acnhcdn.com/latest/MenuIcon/Fish12.png,400,River,Small,4 PM - 9 AM,4 PM - 9 AM,4 PM - 9 AM,4 PM - 9 AM,4 PM - 9 AM,4 PM - 9 AM,4 PM - 9 AM,4 PM - 9 AM,4 PM - 9 AM,4 PM - 9 AM,4 PM - 9 AM,4 PM - 9 AM
+frog,https://acnhcdn.com/latest/MenuIcon/Fish11.png,120,Pond,Small,All day,All day,NA,NA,NA,NA,NA,NA,NA,NA,All day,All day
+gar,https://acnhcdn.com/latest/MenuIcon/Fish35.png,6000,Pond,X-Large,4 PM - 9 AM,4 PM - 9 AM,4 PM - 9 AM,NA,NA,NA,NA,NA,NA,NA,NA,4 PM - 9 AM
+giant snakehead,https://acnhcdn.com/latest/MenuIcon/Fish16.png,5500,Pond,Large,9 AM - 4 PM,9 AM - 4 PM,NA,NA,NA,NA,NA,NA,NA,NA,NA,9 AM - 4 PM
+giant trevally,https://acnhcdn.com/latest/MenuIcon/Fish70.png,4500,Pier,X-Large,All day,All day,All day,All day,NA,NA,NA,NA,NA,NA,All day,All day
+golden trout,https://acnhcdn.com/latest/MenuIcon/Fish79.png,15000,River (clifftop),Medium,NA,NA,4 PM - 9 AM,4 PM - 9 AM,4 PM - 9 AM,NA,NA,NA,4 PM - 9 AM,4 PM - 9 AM,4 PM - 9 AM,NA
+goldfish,https://acnhcdn.com/latest/MenuIcon/Fish7.png,1300,Pond,X-Small,All day,All day,All day,All day,All day,All day,All day,All day,All day,All day,All day,All day
+great white shark,https://acnhcdn.com/latest/MenuIcon/Fish62.png,15000,Sea,X-Large w/Fin,4 PM - 9 AM,4 PM - 9 AM,4 PM - 9 AM,NA,NA,NA,NA,NA,NA,NA,NA,4 PM - 9 AM
+guppy,https://acnhcdn.com/latest/MenuIcon/Fish29.png,1300,River,X-Small,9 AM - 4 PM,9 AM - 4 PM,9 AM - 4 PM,9 AM - 4 PM,9 AM - 4 PM,NA,NA,NA,NA,9 AM - 4 PM,9 AM - 4 PM,9 AM - 4 PM
+hammerhead shark,https://acnhcdn.com/latest/MenuIcon/Fish61.png,8000,Sea,X-Large w/Fin,4 PM - 9 AM,4 PM - 9 AM,4 PM - 9 AM,NA,NA,NA,NA,NA,NA,NA,NA,4 PM - 9 AM
+horse mackerel,https://acnhcdn.com/latest/MenuIcon/Fish46.png,150,Sea,Small,All day,All day,All day,All day,All day,All day,All day,All day,All day,All day,All day,All day
+killifish,https://acnhcdn.com/latest/MenuIcon/Fish9.png,300,Pond,X-Small,All day,All day,NA,NA,NA,NA,NA,NA,NA,All day,All day,All day
+king salmon,https://acnhcdn.com/latest/MenuIcon/Fish28.png,1800,River (mouth),X-Large,NA,NA,All day,NA,NA,NA,NA,NA,NA,NA,NA,NA
+koi,https://acnhcdn.com/latest/MenuIcon/Fish6.png,4000,Pond,Large,4 PM - 9 AM,4 PM - 9 AM,4 PM - 9 AM,4 PM - 9 AM,4 PM - 9 AM,4 PM - 9 AM,4 PM - 9 AM,4 PM - 9 AM,4 PM - 9 AM,4 PM - 9 AM,4 PM - 9 AM,4 PM - 9 AM
+loach,https://acnhcdn.com/latest/MenuIcon/Fish13.png,400,River,Small,NA,NA,NA,NA,NA,NA,NA,NA,All day,All day,All day,NA
+mahi-mahi,https://acnhcdn.com/latest/MenuIcon/Fish82.png,6000,Pier,X-Large,All day,All day,All day,All day,NA,NA,NA,NA,NA,NA,All day,All day
+mitten crab,https://acnhcdn.com/latest/MenuIcon/Fish66.png,2000,River,Small,NA,NA,4 PM - 9 AM,4 PM - 9 AM,4 PM - 9 AM,NA,NA,NA,NA,NA,NA,NA
+moray eel,https://acnhcdn.com/latest/MenuIcon/Fish55.png,2000,Sea,Long,NA,All day,All day,All day,NA,NA,NA,NA,NA,NA,NA,NA
+Napoleonfish,https://acnhcdn.com/latest/MenuIcon/Fish43.png,10000,Sea,XX-Large,4 AM - 9 PM,4 AM - 9 PM,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+neon tetra,https://acnhcdn.com/latest/MenuIcon/Fish31.png,500,River,X-Small,9 AM - 4 PM,9 AM - 4 PM,9 AM - 4 PM,9 AM - 4 PM,9 AM - 4 PM,NA,NA,NA,NA,9 AM - 4 PM,9 AM - 4 PM,9 AM - 4 PM
+nibble fish,https://acnhcdn.com/latest/MenuIcon/Fish67.png,1500,River,X-Small,9 AM - 4 PM,9 AM - 4 PM,9 AM - 4 PM,NA,NA,NA,NA,NA,NA,NA,9 AM - 4 PM,9 AM - 4 PM
+oarfish,https://acnhcdn.com/latest/MenuIcon/Fish69.png,9000,Sea,XX-Large,NA,NA,NA,NA,NA,All day,All day,All day,All day,All day,All day,NA
+ocean sunfish,https://acnhcdn.com/latest/MenuIcon/Fish60.png,4000,Sea,X-Large w/Fin,4 AM - 9 PM,4 AM - 9 PM,4 AM - 9 PM,NA,NA,NA,NA,NA,NA,NA,NA,NA
+olive flounder,https://acnhcdn.com/latest/MenuIcon/Fish51.png,800,Sea,X-Large,All day,All day,All day,All day,All day,All day,All day,All day,All day,All day,All day,All day
+pale chub,https://acnhcdn.com/latest/MenuIcon/Fish1.png,200,River,X-Small,9 AM - 4 PM,9 AM - 4 PM,9 AM - 4 PM,9 AM - 4 PM,9 AM - 4 PM,9 AM - 4 PM,9 AM - 4 PM,9 AM - 4 PM,9 AM - 4 PM,9 AM - 4 PM,9 AM - 4 PM,9 AM - 4 PM
+pike,https://acnhcdn.com/latest/MenuIcon/Fish20.png,1800,River,X-Large,NA,NA,All day,All day,All day,All day,NA,NA,NA,NA,NA,NA
+piranha,https://acnhcdn.com/latest/MenuIcon/Fish32.png,2500,River,Small,9 AM - 4 PM; 9 PM - 4 AM,9 AM - 4 PM; 9 PM - 4 AM,9 AM - 4 PM; 9 PM - 4 AM,NA,NA,NA,NA,NA,NA,NA,NA,9 AM - 4 PM; 9 PM - 4 AM
+pond smelt,https://acnhcdn.com/latest/MenuIcon/Fish21.png,400,River,Small,NA,NA,NA,NA,NA,All day,All day,All day,NA,NA,NA,NA
+pop-eyed goldfish,https://acnhcdn.com/latest/MenuIcon/Fish8.png,1300,Pond,X-Small,9 AM - 4 PM,9 AM - 4 PM,9 AM - 4 PM,9 AM - 4 PM,9 AM - 4 PM,9 AM - 4 PM,9 AM - 4 PM,9 AM - 4 PM,9 AM - 4 PM,9 AM - 4 PM,9 AM - 4 PM,9 AM - 4 PM
+puffer fish,https://acnhcdn.com/latest/MenuIcon/Fish45.png,250,Sea,Medium,All day,All day,All day,NA,NA,NA,NA,NA,NA,NA,NA,NA
+rainbowfish,https://acnhcdn.com/latest/MenuIcon/Fish80.png,800,River,X-Small,9 AM - 4 PM,9 AM - 4 PM,9 AM - 4 PM,9 AM - 4 PM,NA,NA,NA,NA,NA,NA,9 AM - 4 PM,9 AM - 4 PM
+ranchu goldfish,https://acnhcdn.com/latest/MenuIcon/Fish85.png,4500,Pond,Small,9 AM - 4 PM,9 AM - 4 PM,9 AM - 4 PM,9 AM - 4 PM,9 AM - 4 PM,9 AM - 4 PM,9 AM - 4 PM,9 AM - 4 PM,9 AM - 4 PM,9 AM - 4 PM,9 AM - 4 PM,9 AM - 4 PM
+ray,https://acnhcdn.com/latest/MenuIcon/Fish59.png,3000,Sea,X-Large,NA,4 AM - 9 PM,4 AM - 9 PM,4 AM - 9 PM,4 AM - 9 PM,NA,NA,NA,NA,NA,NA,NA
+red snapper,https://acnhcdn.com/latest/MenuIcon/Fish49.png,3000,Sea,Large,All day,All day,All day,All day,All day,All day,All day,All day,All day,All day,All day,All day
+ribbon eel,https://acnhcdn.com/latest/MenuIcon/Fish71.png,600,Sea,Long,All day,All day,All day,All day,NA,NA,NA,NA,NA,NA,NA,All day
+saddled bichir,https://acnhcdn.com/latest/MenuIcon/Fish68.png,4000,River,Large,9 PM - 4 AM,9 PM - 4 AM,9 PM - 4 AM,NA,NA,NA,NA,NA,NA,NA,NA,9 PM - 4 AM
+salmon,https://acnhcdn.com/latest/MenuIcon/Fish27.png,700,River (mouth),Large,NA,NA,All day,NA,NA,NA,NA,NA,NA,NA,NA,NA
+saw shark,https://acnhcdn.com/latest/MenuIcon/Fish74.png,12000,Sea,X-Large w/Fin,4 PM - 9 AM,4 PM - 9 AM,4 PM - 9 AM,NA,NA,NA,NA,NA,NA,NA,NA,4 PM - 9 AM
+sea bass,https://acnhcdn.com/latest/MenuIcon/Fish48.png,400,Sea,X-Large,All day,All day,All day,All day,All day,All day,All day,All day,All day,All day,All day,All day
+sea butterfly,https://acnhcdn.com/latest/MenuIcon/Fish37.png,1000,Sea,X-Small,NA,NA,NA,NA,NA,All day,All day,All day,All day,NA,NA,NA
+sea horse,https://acnhcdn.com/latest/MenuIcon/Fish39.png,1100,Sea,X-Small,All day,All day,All day,All day,All day,NA,NA,NA,NA,All day,All day,All day
+snapping turtle,https://acnhcdn.com/latest/MenuIcon/Fish78.png,5000,River,Large,9 PM - 4 AM,9 PM - 4 AM,9 PM - 4 AM,9 PM - 4 AM,NA,NA,NA,NA,NA,9 PM - 4 AM,9 PM - 4 AM,9 PM - 4 AM
+soft-shelled turtle,https://acnhcdn.com/latest/MenuIcon/Fish65.png,3750,River,Large,NA,4 PM - 9 AM,4 PM - 9 AM,NA,NA,NA,NA,NA,NA,NA,NA,NA
+squid,https://acnhcdn.com/latest/MenuIcon/Fish52.png,500,Sea,Medium,All day,All day,NA,NA,NA,All day,All day,All day,All day,All day,All day,All day
+stringfish,https://acnhcdn.com/latest/MenuIcon/Fish26.png,15000,River (clifftop),X-Large,NA,NA,NA,NA,NA,4 PM - 9 AM,4 PM - 9 AM,4 PM - 9 AM,4 PM - 9 AM,NA,NA,NA
+sturgeon,https://acnhcdn.com/latest/MenuIcon/Fish75.png,10000,River (mouth),XX-Large,NA,NA,All day,All day,All day,All day,All day,All day,All day,NA,NA,NA
+suckerfish,https://acnhcdn.com/latest/MenuIcon/Fish83.png,1500,Sea,X-Large w/Fin,All day,All day,All day,NA,NA,NA,NA,NA,NA,NA,NA,All day
+surgeonfish,https://acnhcdn.com/latest/MenuIcon/Fish41.png,1000,Sea,Small,All day,All day,All day,NA,NA,NA,NA,NA,NA,All day,All day,All day
+sweetfish,https://acnhcdn.com/latest/MenuIcon/Fish22.png,900,River,Medium,All day,All day,All day,NA,NA,NA,NA,NA,NA,NA,NA,NA
+tadpole,https://acnhcdn.com/latest/MenuIcon/Fish64.png,100,Pond,X-Small,All day,NA,NA,NA,NA,NA,NA,NA,All day,All day,All day,All day
+tilapia,https://acnhcdn.com/latest/MenuIcon/Fish76.png,800,River,Medium,All day,All day,All day,All day,NA,NA,NA,NA,NA,NA,NA,All day
+tuna,https://acnhcdn.com/latest/MenuIcon/Fish57.png,7000,Pier,XX-Large,NA,NA,NA,NA,All day,All day,All day,All day,All day,All day,NA,NA
+whale shark,https://acnhcdn.com/latest/MenuIcon/Fish72.png,13000,Sea,X-Large w/Fin,All day,All day,All day,NA,NA,NA,NA,NA,NA,NA,NA,All day
+yellow perch,https://acnhcdn.com/latest/MenuIcon/Fish18.png,300,River,Medium,NA,NA,NA,All day,All day,All day,All day,All day,All day,NA,NA,NA
+zebra turkeyfish,https://acnhcdn.com/latest/MenuIcon/Fish44.png,500,Sea,Medium,All day,All day,All day,All day,All day,NA,NA,NA,NA,All day,All day,All day
