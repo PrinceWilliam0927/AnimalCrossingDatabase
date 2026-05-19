@@ -1,3 +1,4 @@
+<?php ob_start(); ?>
 <html>
 <head>
   <meta charset="UTF-8">  
@@ -29,7 +30,7 @@
             </div>
 
             <div class="col text-right" style="color:white;">
-            Blathersâ€™ Museum Curators, Copyright 2021
+            Blathersâ€?Museum Curators, Copyright 2021
             </div>
         </div>
     </div>

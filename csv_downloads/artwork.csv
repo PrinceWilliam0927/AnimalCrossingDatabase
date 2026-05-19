@@ -1,0 +1,71 @@
+﻿Name,Type,Genuine,Sell_Price,Real_Art_Title,Artist
+academic painting,Picture,Yes,1245,Vitruvian Man,Leonardo da Vinci
+academic painting,Picture,No,0,Vitruvian Man,Leonardo da Vinci
+amazing painting,Picture,Yes,1245,The Night Watch,Rembrandt van Rijn
+amazing painting,Picture,No,0,The Night Watch,Rembrandt van Rijn
+ancient statue,Sculpture,Yes,1245,Jomon Period Dogu Figurine Shakoki-dogu,Artist Unknown
+ancient statue,Sculpture,No,0,Jomon Period Dogu Figurine Shakoki-dogu,Artist Unknown
+basic painting,Picture,Yes,1245,The Blue Boy,Thomas Gainsborough
+basic painting,Picture,No,0,The Blue Boy,Thomas Gainsborough
+beautiful statue,Sculpture,Yes,1245,Venus de Milo,Artist Unknown
+beautiful statue,Sculpture,No,0,Venus de Milo,Artist Unknown
+calm painting,Picture,Yes,1245,A Sunday Afternoon on the Island of La Grande Jatte,Georges Seurat
+common painting,Picture,Yes,1245,The Gleaners,Jean-François Millet
+detailed painting,Picture,Yes,1245,Ajisai Sokeizu,Ito Jakuchu
+detailed painting,Picture,No,0,Ajisai Sokeizu,Ito Jakuchu
+dynamic painting,Picture,Yes,1245,Thirty-Six Views of Mount Fuji The Great Wave off Kanagawa,Katsushika Hokusai
+familiar statue,Sculpture,Yes,1245,The Thinker,Auguste Rodin
+famous painting,Picture,Yes,1245,Mona Lisa,Leonardo da Vinci
+famous painting,Picture,No,0,Mona Lisa,Leonardo da Vinci
+flowery painting,Picture,Yes,1245,Sunflowers,Vincent van Gogh
+gallant statue,Sculpture,Yes,1245,David,Michelangelo
+gallant statue,Sculpture,No,0,David,Michelangelo
+glowing painting,Picture,Yes,1245,The Fighting Temeraire,Joseph Mallord William Turner
+graceful painting,Picture,Yes,1245,Beauty Looking Back,Hishikawa Moronobu
+graceful painting,Picture,No,0,Beauty Looking Back,Hishikawa Moronobu
+great statue,Sculpture,Yes,1245,King Kamehameha I,Thomas Ridgeway Gould
+informative statue,Sculpture,Yes,1245,Rosetta Stone,Artist Unknown
+informative statue,Sculpture,No,0,Rosetta Stone,Artist Unknown
+jolly painting,Picture,Yes,1245,Summer,Giuseppe Arcimboldo
+jolly painting,Picture,No,0,Summer,Giuseppe Arcimboldo
+moody painting,Picture,Yes,1245,The Sower,Jean-Francois Millet
+motherly statue,Sculpture,Yes,1245,Capitoline Wolf,Artist Unknown
+motherly statue,Sculpture,No,0,Capitoline Wolf,Artist Unknown
+moving painting,Picture,Yes,1245,The Birth of Venus,Sandro Botticelli
+moving painting,Picture,No,0,The Birth of Venus,Sandro Botticelli
+mysterious painting,Picture,Yes,1245,Isle of The Dead,Arnold Bocklin
+mystic statue,Sculpture,Yes,1245,Bust of Nefertiti,Thutmose
+mystic statue,Sculpture,No,0,Bust of Nefertiti,Thutmose
+nice painting,Picture,Yes,1245,The Fifer,Edouard Manet
+perfect painting,Picture,Yes,1245,Apples and Oranges,Paul Cezanne
+proper painting,Picture,Yes,1245,A Bar at The Folies-Bergere,Edouard Manet
+quaint painting,Picture,Yes,1245,The Milkmaid,Johannes Vermeer
+quaint painting,Picture,No,0,The Milkmaid,Johannes Vermeer
+robust statue,Sculpture,Yes,1245,Discobolus,Artist Unknown
+robust statue,Sculpture,No,0,Discobolus,Artist Unknown
+rock-head statue,Sculpture,Yes,1245,Olmec Colossal Head,Artist Unknown
+rock-head statue,Sculpture,No,0,Olmec Colossal Head,Artist Unknown
+scary painting,Picture,Yes,1245,Otani Oniji the 3rd as Yakko Edobei,Toshusai Sharaku
+scary painting,Picture,No,0,Otani Oniji the 3rd as Yakko Edobei,Toshusai Sharaku
+scenic painting,Picture,Yes,1245,The Hunters in The Snow,Pieter Brueghel the Elder
+scenic painting,Picture,No,0,The Hunters in The Snow,Pieter Brueghel the Elder
+serene painting,Picture,Yes,1245,Lady with an Ermine,Leonardo da Vinci
+serene painting,Picture,No,0,Lady with an Ermine,Leonardo da Vinci
+sinking painting,Picture,Yes,1245,Ophelia,John Everett Millais
+solemn painting,Picture,Yes,1245,Las Meninas,Diego Velazquez
+solemn painting,Picture,No,0,Las Meninas,Diego Velazquez
+tremendous statue,Sculpture,Yes,1245,Houmuwu Ding,Artist Unknown
+tremendous statue,Sculpture,No,0,Houmuwu Ding,Artist Unknown
+twinkling painting,Picture,Yes,1245,The Starry Night,Vincent van Gogh
+valiant statue,Sculpture,Yes,1245,Nike of Samothrace,Artist Unknown
+valiant statue,Sculpture,No,0,Nike of Samothrace,Artist Unknown
+warm painting,Picture,Yes,1245,The Clothed Maja,Francisco de Goya
+warrior statue,Sculpture,Yes,1245,Terracotta Army,Artist Unknown
+warrior statue,Sculpture,No,0,Terracotta Army,Artist Unknown
+wild painting left half,Picture,Yes,1245,Folding Screen of Fujin and Raijin,Tawaraya Sotatsu
+wild painting left half,Picture,No,0,Folding Screen of Fujin and Raijin,Tawaraya Sotatsu
+wild painting right half,Picture,Yes,1245,Folding Screen of Fujin and Raijin,Tawaraya Sotatsu
+wild painting right half,Picture,No,0,Folding Screen of Fujin and Raijin,Tawaraya Sotatsu
+wistful painting,Picture,Yes,1245,Girl with a Pearl Earring,Johannes Vermeer
+wistful painting,Picture,No,0,Girl with a Pearl Earring,Johannes Vermeer
+worthy painting,Picture,Yes,1245,Liberty Leading the People,Eugene Delacroix

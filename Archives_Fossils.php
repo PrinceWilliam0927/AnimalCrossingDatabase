@@ -1,12 +1,13 @@
+<?php ob_start(); ?>
 <!DOCTYPE html>
 <html>
 <head>
   <meta charset="UTF-8">  
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="Ben Phillips">
-  <meta name="description" content="Screen Displaying Music table from Database">  
+  <meta name="description" content="Screen Displaying Fossils table from Database">  
   
-  <title>Music</title>
+  <title>Fossils</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"> 
   <link rel="stylesheet" type="text/css" href="./styles/Base.css" />
 </head>
@@ -26,7 +27,7 @@
 		$( "#Nameinput" ).change(function() {
 		
 			$.ajax({
-				url: 'search_Music.php', 
+				url: 'search_Fossils.php', 
 				data: {searchName: $( "#Nameinput" ).val()},
 				success: function(data){
 					$('#Nameresult').html(data);	
@@ -38,8 +39,8 @@
 	});
 	</script>
 
-<h3>Search Music by Title:</h3>	
-<input class="xlarge" style="margin-left:50px;" id="Nameinput" type="search" placeholder="Enter Music Title"/>
+<h3>Search Fossils by Name:</h3>	
+<input class="xlarge" style="margin-left:50px;" id="Nameinput" type="search" placeholder="Enter Fossil Name"/>
 
 <div id="Nameresult">
 <form method='post' action='download.php'>
@@ -50,8 +51,8 @@
     <thead class="thead-dark">
         <tr>
         <th>Name</th>
-        <th>Album Cover</th>
-        <th>For Sale</th>
+        <th>Image</th>
+        <th>Price</th>
         <th>Select</th>
         </tr> 
     </thead>
@@ -66,7 +67,7 @@
   function query_database(){
 
     global $db;
-    $query = "SELECT * FROM Music";
+    $query = "SELECT * FROM Fossils";
     $statement = $db->prepare($query); //Compile string query into executable version
     $statement->execute();
     $output = $statement->fetchAll();  //Returns an array of all row from execution
@@ -78,13 +79,13 @@
       //Puts each entry into the table format for display
       ?><tr>
           <td><?php echo $row['Name']; ?></td>
-          <td><img src="<?php echo $row['Album_Image']; ?>" height="50" width="50"></td>
-          <td><?php echo $row['For Sale']; ?></td>
-          <td><input type="checkbox" name="collected[]" value="<?php echo $row['Name']; ?>"></td>
+          <td><img src="<?php echo $row['Image']; ?>" height="50" width="50"></td>
+          <td><?php echo $row['Price']; ?> Bells</td>
+          <td><input type='checkbox' name='collected[]' value='<?php echo $row['Name']; ?>'></td>
         </tr>
         <?php
         //Create array for download feature
-        $row_array[] = array($row['Name'], $row['Album_Image'], $row['For Sale']);  
+        $row_array[] = array($row['Name'], $row['Image'], $row['Price']);  
     }
       //Serialize array for download feature
       $serialize_row_array =  serialize($row_array);
@@ -92,11 +93,11 @@
       <!-- Pass serialized array via textarea -->
       <textarea name='download_data' style='display: none;'><?php echo $serialize_row_array; ?></textarea>
       <!-- Pass desired name of file -->
-      <input style='display: none;' name='file_name' value='music.csv' />
+      <input style='display: none;' name='file_name' value='fossils.csv' />
       <!-- Pass type of item for adding to User_Collection database -->
-      <input style='display: none;' name='item_type' value='Music' />
+      <input style='display: none;' name='item_type' value='Fossil' />
       <!-- Pass return address after adding to collection -->
-      <input style='display: none;' name='return_addr' value='Archives_Music.php' />
+      <input style='display: none;' name='return_addr' value='Archives_Fossils.php' />
       <?php
     $statement->closeCursor();
 }

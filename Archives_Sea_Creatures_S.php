@@ -1,3 +1,4 @@
+<?php ob_start(); ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,7 +7,7 @@
   <meta name="author" content="Ben Phillips">
   <meta name="description" content="Screen Displaying Artwork table from Database">  
   
-  <title>Sea Creatures N</title>
+  <title>Sea Creatures S</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"> 
   <link rel="stylesheet" type="text/css" href="./styles/Base.css" />
 </head>
@@ -26,7 +27,7 @@
 		$( "#Nameinput" ).change(function() {
 		
 			$.ajax({
-				url: 'search_Sea_Creatures_N.php', 
+				url: 'search_Sea_Creatures_S.php', 
 				data: {searchName: $( "#Nameinput" ).val()},
 				success: function(data){
 					$('#Nameresult').html(data);	
@@ -46,7 +47,7 @@
 <input type='submit' value='Add to Collection' name='Collect'>
 <input type='submit' value='Download Table' name='Download'>
 
-<table class="table table-striped table-hover">
+<table id="eat-table" class="table table-striped table-hover">
     <thead class="thead-dark">
         <tr>
         <th>Name</th>
@@ -80,7 +81,7 @@
   function query_database(){
 
     global $db;
-    $query = "SELECT * FROM Sea_Creatures_N";
+    $query = "SELECT * FROM Sea_Creatures_S";
     $statement = $db->prepare($query); //Compile string query into executable version
     $statement->execute();
     $output = $statement->fetchAll();  //Returns an array of all row from execution
@@ -96,23 +97,23 @@
         <td><?php echo $row['Price']; ?> Bells</td>
         <td><?php echo $row['Shadow']; ?></td>
         <td><?php echo $row['Movement Speed']; ?></td>
-        <td><?php echo $row['NH_Jan']; ?></td>
-        <td><?php echo $row['NH_Feb']; ?></td>
-        <td><?php echo $row['NH_Mar']; ?></td>
-        <td><?php echo $row['NH_Apr']; ?></td>
-        <td><?php echo $row['NH_May']; ?></td>
-        <td><?php echo $row['NH_Jun']; ?></td>
-        <td><?php echo $row['NH_Jul']; ?></td>
-        <td><?php echo $row['NH_Aug']; ?></td>
-        <td><?php echo $row['NH_Sep']; ?></td>
-        <td><?php echo $row['NH_Oct']; ?></td>
-        <td><?php echo $row['NH_Nov']; ?></td>
-        <td><?php echo $row['NH_Dec']; ?></td>
+        <td><?php echo $row['SH_Jan']; ?></td>
+        <td><?php echo $row['SH_Feb']; ?></td>
+        <td><?php echo $row['SH_Mar']; ?></td>
+        <td><?php echo $row['SH_Apr']; ?></td>
+        <td><?php echo $row['SH_May']; ?></td>
+        <td><?php echo $row['SH_Jun']; ?></td>
+        <td><?php echo $row['SH_Jul']; ?></td>
+        <td><?php echo $row['SH_Aug']; ?></td>
+        <td><?php echo $row['SH_Sep']; ?></td>
+        <td><?php echo $row['SH_Oct']; ?></td>
+        <td><?php echo $row['SH_Nov']; ?></td>
+        <td><?php echo $row['SH_Dec']; ?></td>
         <td><input type="checkbox" name="collected[]" value="<?php echo $row['Name']; ?>"></td>
       </tr>
       <?php
       //Create array for download feature
-      $row_array[] = array($row['Name'], $row['Icon Image'], $row['Price'], $row['Shadow'], $row['Movement Speed'], $row['NH_Jan'], $row['NH_Feb'], $row['NH_Mar'], $row['NH_Apr'], $row['NH_May'], $row['NH_Jun'], $row['NH_Jul'], $row['NH_Aug'], $row['NH_Sep'], $row['NH_Oct'], $row['NH_Nov'], $row['NH_Dec']);
+      $row_array[] = array($row['Name'], $row['Icon Image'], $row['Price'], $row['Shadow'], $row['Movement Speed'], $row['SH_Jan'], $row['SH_Feb'], $row['SH_Mar'], $row['SH_Apr'], $row['SH_May'], $row['SH_Jun'], $row['SH_Jul'], $row['SH_Aug'], $row['SH_Sep'], $row['SH_Oct'], $row['SH_Nov'], $row['SH_Dec']);
     }
     //Serialize array for download feature
     $serialize_row_array =  serialize($row_array);
@@ -120,11 +121,11 @@
     <!-- Pass serialized array via textarea -->
     <textarea name='download_data' style='display: none;'><?php echo $serialize_row_array; ?></textarea>
     <!-- Pass desired name of file -->
-    <input style='display: none;' name='file_name' value='sea_creatures_N.csv' />
+    <input style='display: none;' name='file_name' value='sea_creatures_S.csv' />
     <!-- Pass type of item for adding to User_Collection database -->
-    <input style='display: none;' name='item_type' value='Sea_Creatures_N' />
+    <input style='display: none;' name='item_type' value='Sea_Creatures_S' />
     <!-- Pass return address after adding to collection -->
-    <input style='display: none;' name='return_addr' value='Archives_Sea_Creatures_N.php' />
+    <input style='display: none;' name='return_addr' value='Archives_Sea_Creatures_S.php' />
     <?php
     $statement->closeCursor();
   }

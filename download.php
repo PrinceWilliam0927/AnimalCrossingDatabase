@@ -1,4 +1,5 @@
 <?php
+ob_start();
 session_start();
 require('connect-db.php');
 
@@ -24,8 +25,6 @@ if( isset($_POST['Download']) ){ //If Download button is pressed
 
     readfile('./csv_downloads/' . $_POST['file_name']);
 
-    // deleting file
-    unlink($filename);
     exit();
 }
 
@@ -41,13 +40,12 @@ else {  //If Collect button is pressed
             $item_name = $collect;
             $statement->bindParam(':item_name', $collect);
             // Insert type of item into query
-            $item_type = $_POST['item_type'];
+            $item_type = isset($_POST['item_type']) ? $_POST['item_type'] : 'Unknown';
             $statement->bindParam(':item_type', $item_type);
             $statement->execute();
-            echo $collect . ' inserted <br/>';
         }
         $statement->closeCursor();
-        header('Location: ' . $_POST['return_addr']);
+        $return_addr = isset($_POST['return_addr']) ? $_POST['return_addr'] : 'Archives.php';
+        header('Location: ' . $return_addr);
     }
 }
-

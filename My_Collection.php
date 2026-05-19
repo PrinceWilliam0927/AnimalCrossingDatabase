@@ -1,3 +1,4 @@
+<?php ob_start(); ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -18,6 +19,11 @@
 
 <body>
 <?php session_start(); ?>
+<?php
+if (!isset($_SESSION['user'])) {
+    $_SESSION['user'] = 'William';
+}
+?>
 <?php require('connect-db.php'); ?>
 <?php include('header.php'); ?>
 <br/><br/><br/>
@@ -566,7 +572,7 @@
             </div>
 
             <div class="col text-right" style="color:white;">
-            Blathersâ€™ Museum Curators, Copyright 2021
+            Blathersâ€?Museum Curators, Copyright 2021
             </div>
         </div>
     </div>
